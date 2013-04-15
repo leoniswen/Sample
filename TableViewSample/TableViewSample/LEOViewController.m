@@ -15,6 +15,7 @@
 @implementation LEOViewController
 
 @synthesize listData = _listData;
+@synthesize listImage = _listImage;
 @synthesize tableView = _tableView;
 @synthesize tableViewCell = _tableViewCell;
 
@@ -24,6 +25,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     // 实例化表格
     self.tableView = [[UITableView alloc] initWithFrame:self.view.frame
                                                   style:UITableViewStyleGrouped];
@@ -34,8 +36,11 @@
     // 添加子视图-tableView
     [self.view addSubview:self.tableView];
     // 创建数据源
-    NSArray *array = [NSArray arrayWithObjects:@"上海", @"北京", @"广州", @"武汉", @"海口", nil];
+    NSArray *array = [NSArray arrayWithObjects:@"赵信", @"阿木木", @"贾克斯", @"努努", @"阿卡利", nil];
+    NSArray *arrayImage = [NSArray arrayWithObjects:@"zx.jpg", @"amm.jpg", @"jxs.jpg", @"nn.jpg",
+                                                    @"akl.jpg", nil];
     self.listData = array;
+    self.listImage = arrayImage;
 }
 
 #pragma mark - UITableView
@@ -73,12 +78,12 @@
     
     NSUInteger row = [indexPath row];
 
-//    UIImage *image = [UIImage imageNamed:@"imageName.png"];
-//    cell.imageView.image = image;
+    UIImage *image = [UIImage imageNamed:[self.listImage objectAtIndex:row]];
+    cell.imageView.image = image;
     cell.textLabel.backgroundColor = [UIColor clearColor];
     cell.textLabel.font = [UIFont boldSystemFontOfSize:18.0f];
     cell.textLabel.text = [self.listData objectAtIndex:row];
-    cell.detailTextLabel.text = @"details";
+    cell.detailTextLabel.text = @"查看详细";
 
     return cell;
 
@@ -87,7 +92,7 @@
 // 设置单元格高度
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 70;
+    return 90;
 }
 
 // 设置单元格缩进
@@ -99,7 +104,7 @@
 //        return 0;
 //    }
     
-    return 2;
+    return 0;
 }
 
 // 选中单元格触发事件

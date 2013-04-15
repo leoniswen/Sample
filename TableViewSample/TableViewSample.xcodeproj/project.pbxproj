@@ -18,6 +18,12 @@
 		DB5CC1FB171AA61700EF9FB8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC1FA171AA61700EF9FB8 /* Default-568h@2x.png */; };
 		DB5CC1FE171AA61700EF9FB8 /* LEOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC1FD171AA61700EF9FB8 /* LEOViewController.m */; };
 		DB5CC201171AA61700EF9FB8 /* LEOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC1FF171AA61700EF9FB8 /* LEOViewController.xib */; };
+		DB5CC208171AF00D00EF9FB8 /* zx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC207171AF00D00EF9FB8 /* zx.jpg */; };
+		DB5CC20B171AF58400EF9FB8 /* akl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC20A171AF58400EF9FB8 /* akl.jpg */; };
+		DB5CC20D171AF5B300EF9FB8 /* jxs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC20C171AF5B300EF9FB8 /* jxs.jpg */; };
+		DB5CC212171AF60F00EF9FB8 /* nn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC211171AF60F00EF9FB8 /* nn.jpg */; };
+		DB5CC214171AF68A00EF9FB8 /* amm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5CC213171AF68A00EF9FB8 /* amm.jpg */; };
+		DB5CC217171AFFC000EF9FB8 /* LEOHeros.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5CC216171AFFC000EF9FB8 /* LEOHeros.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,13 @@
 		DB5CC1FC171AA61700EF9FB8 /* LEOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOViewController.h; sourceTree = "<group>"; };
 		DB5CC1FD171AA61700EF9FB8 /* LEOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOViewController.m; sourceTree = "<group>"; };
 		DB5CC200171AA61700EF9FB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LEOViewController.xib; sourceTree = "<group>"; };
+		DB5CC207171AF00D00EF9FB8 /* zx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zx.jpg; sourceTree = "<group>"; };
+		DB5CC20A171AF58400EF9FB8 /* akl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = akl.jpg; sourceTree = "<group>"; };
+		DB5CC20C171AF5B300EF9FB8 /* jxs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jxs.jpg; sourceTree = "<group>"; };
+		DB5CC211171AF60F00EF9FB8 /* nn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nn.jpg; sourceTree = "<group>"; };
+		DB5CC213171AF68A00EF9FB8 /* amm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amm.jpg; sourceTree = "<group>"; };
+		DB5CC215171AFFC000EF9FB8 /* LEOHeros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOHeros.h; path = ../LEOHeros.h; sourceTree = "<group>"; };
+		DB5CC216171AFFC000EF9FB8 /* LEOHeros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOHeros.m; path = ../LEOHeros.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,8 @@
 		DB5CC1EA171AA61700EF9FB8 /* TableViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				DB5CC215171AFFC000EF9FB8 /* LEOHeros.h */,
+				DB5CC216171AFFC000EF9FB8 /* LEOHeros.m */,
 				DB5CC1F3171AA61700EF9FB8 /* LEOAppDelegate.h */,
 				DB5CC1F4171AA61700EF9FB8 /* LEOAppDelegate.m */,
 				DB5CC1FC171AA61700EF9FB8 /* LEOViewController.h */,
@@ -96,6 +111,7 @@
 		DB5CC1EB171AA61700EF9FB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB5CC209171AF01200EF9FB8 /* images */,
 				DB5CC1EC171AA61700EF9FB8 /* TableViewSample-Info.plist */,
 				DB5CC1ED171AA61700EF9FB8 /* InfoPlist.strings */,
 				DB5CC1F0171AA61700EF9FB8 /* main.m */,
@@ -105,6 +121,42 @@
 				DB5CC1FA171AA61700EF9FB8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5CC209171AF01200EF9FB8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CC210171AF5CF00EF9FB8 /* items */,
+				DB5CC20F171AF5C700EF9FB8 /* skills */,
+				DB5CC20E171AF5BF00EF9FB8 /* heros */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DB5CC20E171AF5BF00EF9FB8 /* heros */ = {
+			isa = PBXGroup;
+			children = (
+				DB5CC213171AF68A00EF9FB8 /* amm.jpg */,
+				DB5CC20C171AF5B300EF9FB8 /* jxs.jpg */,
+				DB5CC20A171AF58400EF9FB8 /* akl.jpg */,
+				DB5CC207171AF00D00EF9FB8 /* zx.jpg */,
+				DB5CC211171AF60F00EF9FB8 /* nn.jpg */,
+			);
+			name = heros;
+			sourceTree = "<group>";
+		};
+		DB5CC20F171AF5C700EF9FB8 /* skills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = skills;
+			sourceTree = "<group>";
+		};
+		DB5CC210171AF5CF00EF9FB8 /* items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +215,11 @@
 				DB5CC1F9171AA61700EF9FB8 /* Default@2x.png in Resources */,
 				DB5CC1FB171AA61700EF9FB8 /* Default-568h@2x.png in Resources */,
 				DB5CC201171AA61700EF9FB8 /* LEOViewController.xib in Resources */,
+				DB5CC208171AF00D00EF9FB8 /* zx.jpg in Resources */,
+				DB5CC20B171AF58400EF9FB8 /* akl.jpg in Resources */,
+				DB5CC20D171AF5B300EF9FB8 /* jxs.jpg in Resources */,
+				DB5CC212171AF60F00EF9FB8 /* nn.jpg in Resources */,
+				DB5CC214171AF68A00EF9FB8 /* amm.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +233,7 @@
 				DB5CC1F1171AA61700EF9FB8 /* main.m in Sources */,
 				DB5CC1F5171AA61700EF9FB8 /* LEOAppDelegate.m in Sources */,
 				DB5CC1FE171AA61700EF9FB8 /* LEOViewController.m in Sources */,
+				DB5CC217171AFFC000EF9FB8 /* LEOHeros.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +356,7 @@
 				DB5CC206171AA61800EF9FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

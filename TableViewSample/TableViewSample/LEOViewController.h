@@ -11,6 +11,7 @@
 @interface LEOViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSArray *listData;
+@property (strong, nonatomic) NSArray *listImage;
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) UITableViewCell *tableViewCell;
 
