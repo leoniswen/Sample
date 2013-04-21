@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB36B371172406ED00733E0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB36B370172406ED00733E0B /* UIKit.framework */; };
+		DB36B373172406ED00733E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB36B372172406ED00733E0B /* Foundation.framework */; };
+		DB36B375172406ED00733E0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB36B374172406ED00733E0B /* CoreGraphics.framework */; };
+		DB36B37B172406ED00733E0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB36B379172406ED00733E0B /* InfoPlist.strings */; };
+		DB36B37D172406ED00733E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB36B37C172406ED00733E0B /* main.m */; };
+		DB36B381172406ED00733E0B /* LEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB36B380172406ED00733E0B /* LEOAppDelegate.m */; };
+		DB36B383172406ED00733E0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36B382172406ED00733E0B /* Default.png */; };
+		DB36B385172406ED00733E0B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36B384172406ED00733E0B /* Default@2x.png */; };
+		DB36B387172406ED00733E0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB36B386172406ED00733E0B /* Default-568h@2x.png */; };
+		DB36B38A172406ED00733E0B /* LEOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB36B389172406ED00733E0B /* LEOViewController.m */; };
+		DB36B38D172406ED00733E0B /* LEOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB36B38B172406ED00733E0B /* LEOViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB36B36D172406ED00733E0B /* TextViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB36B370172406ED00733E0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB36B372172406ED00733E0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB36B374172406ED00733E0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB36B378172406ED00733E0B /* TextViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewSample-Info.plist"; sourceTree = "<group>"; };
+		DB36B37A172406ED00733E0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB36B37C172406ED00733E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB36B37E172406ED00733E0B /* TextViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		DB36B37F172406ED00733E0B /* LEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOAppDelegate.h; sourceTree = "<group>"; };
+		DB36B380172406ED00733E0B /* LEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOAppDelegate.m; sourceTree = "<group>"; };
+		DB36B382172406ED00733E0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB36B384172406ED00733E0B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB36B386172406ED00733E0B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB36B388172406ED00733E0B /* LEOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOViewController.h; sourceTree = "<group>"; };
+		DB36B389172406ED00733E0B /* LEOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOViewController.m; sourceTree = "<group>"; };
+		DB36B38C172406ED00733E0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LEOViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB36B36A172406ED00733E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB36B371172406ED00733E0B /* UIKit.framework in Frameworks */,
+				DB36B373172406ED00733E0B /* Foundation.framework in Frameworks */,
+				DB36B375172406ED00733E0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB36B364172406EC00733E0B = {
+			isa = PBXGroup;
+			children = (
+				DB36B376172406ED00733E0B /* TextViewSample */,
+				DB36B36F172406ED00733E0B /* Frameworks */,
+				DB36B36E172406ED00733E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB36B36E172406ED00733E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB36B36D172406ED00733E0B /* TextViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB36B36F172406ED00733E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB36B370172406ED00733E0B /* UIKit.framework */,
+				DB36B372172406ED00733E0B /* Foundation.framework */,
+				DB36B374172406ED00733E0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB36B376172406ED00733E0B /* TextViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				DB36B37F172406ED00733E0B /* LEOAppDelegate.h */,
+				DB36B380172406ED00733E0B /* LEOAppDelegate.m */,
+				DB36B388172406ED00733E0B /* LEOViewController.h */,
+				DB36B389172406ED00733E0B /* LEOViewController.m */,
+				DB36B38B172406ED00733E0B /* LEOViewController.xib */,
+				DB36B377172406ED00733E0B /* Supporting Files */,
+			);
+			path = TextViewSample;
+			sourceTree = "<group>";
+		};
+		DB36B377172406ED00733E0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB36B378172406ED00733E0B /* TextViewSample-Info.plist */,
+				DB36B379172406ED00733E0B /* InfoPlist.strings */,
+				DB36B37C172406ED00733E0B /* main.m */,
+				DB36B37E172406ED00733E0B /* TextViewSample-Prefix.pch */,
+				DB36B382172406ED00733E0B /* Default.png */,
+				DB36B384172406ED00733E0B /* Default@2x.png */,
+				DB36B386172406ED00733E0B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB36B36C172406ED00733E0B /* TextViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB36B390172406ED00733E0B /* Build configuration list for PBXNativeTarget "TextViewSample" */;
+			buildPhases = (
+				DB36B369172406ED00733E0B /* Sources */,
+				DB36B36A172406ED00733E0B /* Frameworks */,
+				DB36B36B172406ED00733E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewSample;
+			productName = TextViewSample;
+			productReference = DB36B36D172406ED00733E0B /* TextViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB36B365172406EC00733E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LEO;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = DB36B368172406EC00733E0B /* Build configuration list for PBXProject "TextViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB36B364172406EC00733E0B;
+			productRefGroup = DB36B36E172406ED00733E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB36B36C172406ED00733E0B /* TextViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB36B36B172406ED00733E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB36B37B172406ED00733E0B /* InfoPlist.strings in Resources */,
+				DB36B383172406ED00733E0B /* Default.png in Resources */,
+				DB36B385172406ED00733E0B /* Default@2x.png in Resources */,
+				DB36B387172406ED00733E0B /* Default-568h@2x.png in Resources */,
+				DB36B38D172406ED00733E0B /* LEOViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB36B369172406ED00733E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB36B37D172406ED00733E0B /* main.m in Sources */,
+				DB36B381172406ED00733E0B /* LEOAppDelegate.m in Sources */,
+				DB36B38A172406ED00733E0B /* LEOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB36B379172406ED00733E0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB36B37A172406ED00733E0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB36B38B172406ED00733E0B /* LEOViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB36B38C172406ED00733E0B /* en */,
+			);
+			name = LEOViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB36B38E172406ED00733E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB36B38F172406ED00733E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB36B391172406ED00733E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewSample/TextViewSample-Prefix.pch";
+				INFOPLIST_FILE = "TextViewSample/TextViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB36B392172406ED00733E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewSample/TextViewSample-Prefix.pch";
+				INFOPLIST_FILE = "TextViewSample/TextViewSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB36B368172406EC00733E0B /* Build configuration list for PBXProject "TextViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB36B38E172406ED00733E0B /* Debug */,
+				DB36B38F172406ED00733E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB36B390172406ED00733E0B /* Build configuration list for PBXNativeTarget "TextViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB36B391172406ED00733E0B /* Debug */,
+				DB36B392172406ED00733E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB36B365172406EC00733E0B /* Project object */;
+}
