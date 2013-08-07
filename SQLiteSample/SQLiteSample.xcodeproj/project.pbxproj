@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6BC07917AFE29C00F9AA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6BC07817AFE29C00F9AA6D /* UIKit.framework */; };
+		DB6BC07B17AFE29C00F9AA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6BC07A17AFE29C00F9AA6D /* Foundation.framework */; };
+		DB6BC07D17AFE29C00F9AA6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6BC07C17AFE29C00F9AA6D /* CoreGraphics.framework */; };
+		DB6BC08317AFE29C00F9AA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6BC08117AFE29C00F9AA6D /* InfoPlist.strings */; };
+		DB6BC08517AFE29C00F9AA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BC08417AFE29C00F9AA6D /* main.m */; };
+		DB6BC08917AFE29C00F9AA6D /* LEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BC08817AFE29C00F9AA6D /* LEOAppDelegate.m */; };
+		DB6BC08B17AFE29D00F9AA6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6BC08A17AFE29D00F9AA6D /* Default.png */; };
+		DB6BC08D17AFE29D00F9AA6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6BC08C17AFE29D00F9AA6D /* Default@2x.png */; };
+		DB6BC08F17AFE29D00F9AA6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6BC08E17AFE29D00F9AA6D /* Default-568h@2x.png */; };
+		DB6BC09217AFE29D00F9AA6D /* LEOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6BC09117AFE29D00F9AA6D /* LEOViewController.m */; };
+		DB6BC09517AFE29D00F9AA6D /* LEOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6BC09317AFE29D00F9AA6D /* LEOViewController.xib */; };
+		DB6BC09C17AFE30D00F9AA6D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6BC09B17AFE30D00F9AA6D /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB6BC07517AFE29C00F9AA6D /* SQLiteSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6BC07817AFE29C00F9AA6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB6BC07A17AFE29C00F9AA6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB6BC07C17AFE29C00F9AA6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB6BC08017AFE29C00F9AA6D /* SQLiteSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteSample-Info.plist"; sourceTree = "<group>"; };
+		DB6BC08217AFE29C00F9AA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6BC08417AFE29C00F9AA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB6BC08617AFE29C00F9AA6D /* SQLiteSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteSample-Prefix.pch"; sourceTree = "<group>"; };
+		DB6BC08717AFE29C00F9AA6D /* LEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOAppDelegate.h; sourceTree = "<group>"; };
+		DB6BC08817AFE29C00F9AA6D /* LEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOAppDelegate.m; sourceTree = "<group>"; };
+		DB6BC08A17AFE29D00F9AA6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB6BC08C17AFE29D00F9AA6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB6BC08E17AFE29D00F9AA6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB6BC09017AFE29D00F9AA6D /* LEOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEOViewController.h; sourceTree = "<group>"; };
+		DB6BC09117AFE29D00F9AA6D /* LEOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEOViewController.m; sourceTree = "<group>"; };
+		DB6BC09417AFE29D00F9AA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LEOViewController.xib; sourceTree = "<group>"; };
+		DB6BC09B17AFE30D00F9AA6D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6BC07217AFE29C00F9AA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6BC09C17AFE30D00F9AA6D /* libsqlite3.dylib in Frameworks */,
+				DB6BC07917AFE29C00F9AA6D /* UIKit.framework in Frameworks */,
+				DB6BC07B17AFE29C00F9AA6D /* Foundation.framework in Frameworks */,
+				DB6BC07D17AFE29C00F9AA6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6BC06C17AFE29C00F9AA6D = {
+			isa = PBXGroup;
+			children = (
+				DB6BC09B17AFE30D00F9AA6D /* libsqlite3.dylib */,
+				DB6BC07E17AFE29C00F9AA6D /* SQLiteSample */,
+				DB6BC07717AFE29C00F9AA6D /* Frameworks */,
+				DB6BC07617AFE29C00F9AA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6BC07617AFE29C00F9AA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BC07517AFE29C00F9AA6D /* SQLiteSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6BC07717AFE29C00F9AA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BC07817AFE29C00F9AA6D /* UIKit.framework */,
+				DB6BC07A17AFE29C00F9AA6D /* Foundation.framework */,
+				DB6BC07C17AFE29C00F9AA6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6BC07E17AFE29C00F9AA6D /* SQLiteSample */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BC08717AFE29C00F9AA6D /* LEOAppDelegate.h */,
+				DB6BC08817AFE29C00F9AA6D /* LEOAppDelegate.m */,
+				DB6BC09017AFE29D00F9AA6D /* LEOViewController.h */,
+				DB6BC09117AFE29D00F9AA6D /* LEOViewController.m */,
+				DB6BC09317AFE29D00F9AA6D /* LEOViewController.xib */,
+				DB6BC07F17AFE29C00F9AA6D /* Supporting Files */,
+			);
+			path = SQLiteSample;
+			sourceTree = "<group>";
+		};
+		DB6BC07F17AFE29C00F9AA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BC08017AFE29C00F9AA6D /* SQLiteSample-Info.plist */,
+				DB6BC08117AFE29C00F9AA6D /* InfoPlist.strings */,
+				DB6BC08417AFE29C00F9AA6D /* main.m */,
+				DB6BC08617AFE29C00F9AA6D /* SQLiteSample-Prefix.pch */,
+				DB6BC08A17AFE29D00F9AA6D /* Default.png */,
+				DB6BC08C17AFE29D00F9AA6D /* Default@2x.png */,
+				DB6BC08E17AFE29D00F9AA6D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6BC07417AFE29C00F9AA6D /* SQLiteSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6BC09817AFE29D00F9AA6D /* Build configuration list for PBXNativeTarget "SQLiteSample" */;
+			buildPhases = (
+				DB6BC07117AFE29C00F9AA6D /* Sources */,
+				DB6BC07217AFE29C00F9AA6D /* Frameworks */,
+				DB6BC07317AFE29C00F9AA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteSample;
+			productName = SQLiteSample;
+			productReference = DB6BC07517AFE29C00F9AA6D /* SQLiteSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6BC06D17AFE29C00F9AA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LEO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = roger;
+			};
+			buildConfigurationList = DB6BC07017AFE29C00F9AA6D /* Build configuration list for PBXProject "SQLiteSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB6BC06C17AFE29C00F9AA6D;
+			productRefGroup = DB6BC07617AFE29C00F9AA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6BC07417AFE29C00F9AA6D /* SQLiteSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6BC07317AFE29C00F9AA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6BC08317AFE29C00F9AA6D /* InfoPlist.strings in Resources */,
+				DB6BC08B17AFE29D00F9AA6D /* Default.png in Resources */,
+				DB6BC08D17AFE29D00F9AA6D /* Default@2x.png in Resources */,
+				DB6BC08F17AFE29D00F9AA6D /* Default-568h@2x.png in Resources */,
+				DB6BC09517AFE29D00F9AA6D /* LEOViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6BC07117AFE29C00F9AA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6BC08517AFE29C00F9AA6D /* main.m in Sources */,
+				DB6BC08917AFE29C00F9AA6D /* LEOAppDelegate.m in Sources */,
+				DB6BC09217AFE29D00F9AA6D /* LEOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB6BC08117AFE29C00F9AA6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6BC08217AFE29C00F9AA6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB6BC09317AFE29D00F9AA6D /* LEOViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6BC09417AFE29D00F9AA6D /* en */,
+			);
+			name = LEOViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6BC09617AFE29D00F9AA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB6BC09717AFE29D00F9AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6BC09917AFE29D00F9AA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteSample/SQLiteSample-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteSample/SQLiteSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB6BC09A17AFE29D00F9AA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteSample/SQLiteSample-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteSample/SQLiteSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6BC07017AFE29C00F9AA6D /* Build configuration list for PBXProject "SQLiteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6BC09617AFE29D00F9AA6D /* Debug */,
+				DB6BC09717AFE29D00F9AA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6BC09817AFE29D00F9AA6D /* Build configuration list for PBXNativeTarget "SQLiteSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6BC09917AFE29D00F9AA6D /* Debug */,
+				DB6BC09A17AFE29D00F9AA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6BC06D17AFE29C00F9AA6D /* Project object */;
+}
